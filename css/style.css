@@ -72,11 +72,15 @@ body{
     position:absolute;
     right:20px;
     top:24px;
+    
+    
 }
-.search input{
+.search input[type=search] {
     width: 178px;
     height: 32px;
+    outline:none;
     border:1px solid #C2C2C2;
+    float:left;
 }
 .search button{
     width: 45px;
@@ -84,6 +88,7 @@ body{
     background-color: var(--main-color);
     border-style: none;
     color:#fff;
+    
 }
 /*main-visual  */
 #banner{
@@ -91,6 +96,7 @@ body{
     max-width:100%;
     background: url(../images/bannerbg.jpg) no-repeat;
     margin:0 auto;
+
 }
 #banner .main-visual{
     
