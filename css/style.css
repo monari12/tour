@@ -75,7 +75,7 @@ body{
     
     
 }
-.search input[type=search] {
+.search input {
     width: 178px;
     height: 32px;
     outline:none;
